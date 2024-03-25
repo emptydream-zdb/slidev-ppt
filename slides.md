@@ -63,7 +63,7 @@ layout: default
 
 <div class="text-sm w70">
   <div class="w-70 h-55">
-    <NImage src="/s1_1.png"></NImage>
+    <NImage src="s1_1.png"></NImage>
   </div>
 <br>
 训练集
@@ -71,7 +71,7 @@ layout: default
 
 <div class="text-sm w70">
   <div class="w-70 h-55">
-    <NImage src="/s1_2.png"></NImage>
+    <NImage src="s1_2.png"></NImage>
   </div>
 <br>
 测试集1
@@ -81,7 +81,7 @@ Currency in Test Data 1: 0.9995
 
 <div class="text-sm w70">
   <div class="w-70 h-55">
-    <NImage src="/s1_3.png"></NImage>
+    <NImage src="s1_3.png"></NImage>
   </div>
   <br>
   测试集2
