@@ -1,0 +1,17 @@
+{
+  "name": "design_report",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.3",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "naive-ui": "^2.38.1",
+    "vue": "^3.4.21"
+  }
+}
