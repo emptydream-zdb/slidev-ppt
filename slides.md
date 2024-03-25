@@ -28,6 +28,7 @@ mdc: true
 </div>
 
 
+
 ---
 transition: fade-out
 layout: image
