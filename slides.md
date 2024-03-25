@@ -19,8 +19,17 @@ mdc: true
 
 <div class="pt-10">李雨佳 曾道斌 曹家宇 张思涵</div>
 
+<div class="abs-bl m-6 items-center flex gap-2">
+  <a href="https://github.com/JYuCao/one-class-classification" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+  <a class="text-sm opacity-50" href="https://github.com/JYuCao/one-class-classification" target="_blank">https://github.com/JYuCao/one-class-classification</a>
+</div>
+
 
 ---
+transition: fade-out
 layout: image
 image: ./question.png
 ---
@@ -55,6 +64,7 @@ train_mvn.pdf(test_data) # 计算测试集每个点的概率密度
 
 ---
 layout: default
+transition: slide-up
 ---
 # 方法一
 基于多元正态分布拟合的故障数据检测
@@ -119,6 +129,7 @@ test_m_dist = mahalanobis(test_data1[i], train_mean, np.linalg.inv(train_cov))# 
 
 ---
 layout: default
+transition: slide-up
 ---
 # 方法一（续）
 基于马氏距离的故障数据检测
@@ -183,6 +194,7 @@ clf.predict(test_data) # 预测测试集, 返回-1表示异常点
 
 ---
 layout: default
+transition: slide-up
 ---
 # 方法二
 OneClassSVM 单分类支持向量机
@@ -283,6 +295,7 @@ Currency in Test Data 2: 0.5025
 
 ---
 layout: default
+transition: slide-up
 ---
 # 方法三
 混合高斯模型
@@ -337,6 +350,7 @@ kde.score_samples(test_data) # 计算测试集每个点的概率密度
 
 ---
 layout: default
+transition: fade-out
 ---
 # 方法四
 parzen窗法
@@ -379,3 +393,10 @@ layout: cover
 ---
 
 # Thanks
+<div class="absolute top-3/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2  items-center flex gap-2">
+  <a href="https://github.com/JYuCao/one-class-classification" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+  <a class="text-sm opacity-50" href="https://github.com/JYuCao/one-class-classification" target="_blank">https://github.com/JYuCao/one-class-classification</a>
+</div>
